@@ -8,7 +8,8 @@ const suggestions = [
     "🧘‍♂️ Prendre 5 minutes pour respirer",
     "🤓 Faire une application to-do-list",
     "💻 Coder une application",
-    "🐈‍⬛ Jouer avec Anne-coco"
+    "🐈‍⬛ Jouer avec Anne-coco",
+    "🏢 Lancer une aventure minecraft ou la continuer"
 ];
 
 function chargerSuggestions() {
@@ -28,4 +29,8 @@ window.addEventListener("DOMContentLoaded", chargerSuggestions);
 
 document.getElementById("open-spotify-btn").addEventListener("click", () => {
     window.location.href = "spotify:";
+});
+
+document.getElementById("open-valorant-btn").addEventListener("click", () => {
+    window.location.href = "riotclient://launch-product/valorant"; // fonctionne si le protocole est enregistré
 });
