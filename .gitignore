@@ -1,0 +1,33 @@
+#Généré par Chatgpt
+
+# Dossier IntelliJ à ignorer
+.idea/
+
+# Fichiers de configuration utilisateur
+*.iml
+
+# Dossiers de compilation
+/out/
+/target/
+/build/
+
+# Fichiers de log
+*.log
+
+# Système d’exploitation
+.DS_Store
+Thumbs.db
+
+# Dossiers temporaires
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+.mvn/
+target/

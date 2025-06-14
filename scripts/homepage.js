@@ -6,7 +6,9 @@ const suggestions = [
     "🎮 Jouer à Wolfenstein The New Order",
     "✍️ Continuer mon application Valorant",
     "🧘‍♂️ Prendre 5 minutes pour respirer",
-    "🤓 Faire une application to-do-list"
+    "🤓 Faire une application to-do-list",
+    "💻 Coder une application",
+    "🐈‍⬛ Jouer avec Anne-coco"
 ];
 
 function chargerSuggestions() {
@@ -23,3 +25,7 @@ function chargerSuggestions() {
 
 document.getElementById("reload-btn").addEventListener("click", chargerSuggestions);
 window.addEventListener("DOMContentLoaded", chargerSuggestions);
+
+document.getElementById("open-spotify-btn").addEventListener("click", () => {
+    window.location.href = "spotify:";
+});

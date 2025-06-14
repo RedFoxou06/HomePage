@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Homepage</title>
-        <link rel="stylesheet" href="styles/homepage.css" />
-        <link rel="icon" type="image/png" href="images/logo_page.png" />
-    </head>
-    <body>
-        <div class="main-box">
-            <h1>👋 Bonjour ! Voici tes suggestions du jour :</h1>
-            <div id="task-container" class="task-container"></div>
-            <button id="reload-btn">🔁 Changer les suggestions</button>
-        </div>
-        <div class="footer-links">
-            <a href="https://www.youtube.com" target="_blank"><img src="images/logo_youtube.png">YouTube</a>
-            <a href="https://mail.google.com" target="_blank"><img src="images/logo_gmail.png">Gmail</a>
-            <a href="https://www.github.com" target="_blank"><img src="images/logo_github.png">GitHub</a>
-            <a href="https://senpai-stream.world/" target="_blank"><img src="images/logo_senpai-stream.jpg" >Senpai-Stream</a>
-        </div>
-    <script src="scripts/homepage.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles/homepage.css" />
+    <link rel="icon" type="image/png" href="images/logo_page.png" />
+</head>
+<body>
+<div class="main-box">
+    <h1>👋 Bonjour ! Voici tes suggestions du jour :</h1>
+    <div id="task-container" class="task-container"></div>
+    <button id="reload-btn">🔁 Changer les suggestions</button>
+</div>
+
+<div class="footer-links">
+    <a href="https://www.youtube.com" target="_blank">
+        <img src="images/logo_youtube.png" alt="YouTube">
+        <span>YouTube</span>
+    </a>
+    <a href="https://mail.google.com" target="_blank">
+        <img src="images/logo_gmail.png" alt="Gmail">
+        <span>Gmail</span>
+    </a>
+    <a href="https://www.github.com" target="_blank">
+        <img src="images/logo_github.png" alt="GitHub">
+        <span>GitHub</span>
+    </a>
+    <a href="https://senpai-stream.world/" target="_blank">
+        <img src="images/logo_senpai-stream.jpg" alt="Senpai-Stream">
+        <span>Senpai-Stream</span>
+    </a>
+    <a id="open-spotify-btn" class="app-link">
+        <img src="images/logo_spotify.png" alt="Spotify">
+        <span>Spotify</span>
+    </a>
+</div>
+
+<script src="scripts/homepage.js"></script>
+</body>
 </html>
