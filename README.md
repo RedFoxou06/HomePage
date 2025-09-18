@@ -1,19 +1,18 @@
-> **Note : README généré par IA** 
+## Homepage | Projet personnel
+**Description :**  
+Je me suis créé une homepage qui se lance automatiquement sur mon PC fixe. Cette homepage me permet d'accéder à plusieurs sites où je vais régulièrement tel github ou youtube. Mais je peux également ouvrir des applications comme spotify ou steam. J'avais avant un bouton pour ouvrir un de mes jeux favoris.
 
-# 🖥️ Homepage perso
+> **Note :** n'ayant pas étudié encore de Javascript en cours, je me suis aidé de supports externes (documentation en ligne et IA) afin de le produire.
+> 
+>Le design de cette page est totalement fait par IA. Je me suis surtout occupé et renseigné sur la partie HTML et Javascript.
 
-Bienvenue sur ma **homepage personnalisée**, qui s'ouvre automatiquement au démarrage de mon PC. Elle me sert de tableau de bord quotidien avec des suggestions de tâches, des liens rapides vers mes sites favoris, et une interface simple et agréable.
+**Langages utilisés :**
+- HTML
+- CSS
+- Javascript
 
-## ✨ Fonctionnalités
-
-- 💡 Suggestions aléatoires à faire dans la journée (reloadables)
-- 🔗 Liens rapides vers :
-    - YouTube
-    - Gmail
-    - GitHub
-    - Senpai-Stream
-- 🖼️ Interface claire, avec design responsive et animé
-- ⚙️ Ouverture automatique au démarrage via raccourci local
-
-## 🗂️ Structure du projet
+**Logiciels utilisés :**
+- IntelliJ
+- VS Code
+- Git
 
