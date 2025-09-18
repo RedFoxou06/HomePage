@@ -1,5 +1,4 @@
 const suggestions = [
-    "🎯 Lancer une ranked sur Valorant",
     "🧠 Travailler 30 min sur un projet perso",
     "📚 Lire un livre",
     "💪 Faire un peu de sport ou s'étirer",
@@ -27,10 +26,18 @@ function chargerSuggestions() {
 document.getElementById("reload-btn").addEventListener("click", chargerSuggestions);
 window.addEventListener("DOMContentLoaded", chargerSuggestions);
 
+// Spotify & Valorant
 document.getElementById("open-spotify-btn").addEventListener("click", () => {
     window.location.href = "spotify:";
 });
 
-document.getElementById("open-valorant-btn").addEventListener("click", () => {
-    window.location.href = "riotclient://launch-product/valorant"; // fonctionne si le protocole est enregistré
+// Toggle mode sombre / clair
+const themeToggle = document.getElementById("theme-toggle");
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    if (document.body.classList.contains("dark-mode")) {
+        themeToggle.textContent = "☀️ Mode clair";
+    } else {
+        themeToggle.textContent = "🌙 Mode sombre";
+    }
 });

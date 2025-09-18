@@ -1,3 +1,21 @@
+/* ---- Bouton de bascule ---- */
+#theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+#theme-toggle:hover {
+    background: #357ac9;
+}
+
+/* ---- MODE CLAIR (défaut) ---- */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -5,6 +23,7 @@ body {
     text-align: center;
     padding: 50px;
     margin: 0;
+    transition: color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .main-box {
@@ -41,7 +60,6 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease;
 }
-
 .task-box:hover {
     transform: scale(1.05);
 }
@@ -57,7 +75,6 @@ button {
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
-
 button:hover {
     background-color: #357ac9;
     transform: scale(1.05);
@@ -85,7 +102,6 @@ button:hover {
     width: 90px;
     cursor: pointer;
 }
-
 .footer-links a:hover {
     background-color: #d2e3fc;
     color: #357ac9;
@@ -98,10 +114,6 @@ button:hover {
     margin-bottom: 6px;
     object-fit: contain;
     border-radius: 6px;
-}
-
-.app-link:hover {
-    color: #1db954;
 }
 
 .app-link {
@@ -118,16 +130,56 @@ button:hover {
     width: 90px;
     cursor: pointer;
 }
-
 .app-link:hover {
     background-color: #d2e3fc;
     transform: scale(1.08);
 }
-
 .app-link img {
     width: 40px;
     height: 40px;
     margin-bottom: 6px;
     object-fit: contain;
     border-radius: 6px;
+}
+
+/* ---- MODE SOMBRE ---- */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode .main-box {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode h1 {
+    color: #90caf9;
+}
+
+body.dark-mode .task-box {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.08);
+}
+
+body.dark-mode button {
+    background-color: #90caf9;
+    color: #121212;
+}
+body.dark-mode button:hover {
+    background-color: #64b5f6;
+}
+
+body.dark-mode .footer-links a,
+body.dark-mode .app-link {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+body.dark-mode .footer-links a:hover,
+body.dark-mode .app-link:hover {
+    background-color: #3a3a3a;
+    color: #90caf9;
 }
