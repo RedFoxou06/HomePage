@@ -4,7 +4,7 @@ Je me suis créé une homepage qui se lance automatiquement sur mon PC fixe. Cet
 
 > **Note :** n'ayant pas étudié encore de Javascript en cours, je me suis aidé de supports externes (documentation en ligne et IA) afin de le produire.
 > 
->Le design de cette page est totalement fait par IA. Je me suis surtout occupé et renseigné sur la partie HTML et Javascript.
+>Le design de cette page est fait en partie par IA. Je me suis surtout occupé et renseigné sur la partie HTML et Javascript.
 
 **Langages utilisés :**
 - HTML
