@@ -26,7 +26,7 @@ function chargerSuggestions() {
 document.getElementById("reload-btn").addEventListener("click", chargerSuggestions);
 window.addEventListener("DOMContentLoaded", chargerSuggestions);
 
-// Spotify & Valorant
+// Spotify
 document.getElementById("open-spotify-btn").addEventListener("click", () => {
     window.location.href = "spotify:";
 });
