@@ -8,7 +8,8 @@ const suggestions = [
     "🤓 Faire une application to-do-list",
     "💻 Coder une application",
     "🐈‍⬛ Jouer avec Anne-coco",
-    "🏢 Lancer une aventure minecraft ou la continuer"
+    "🏢 Lancer une aventure minecraft ou la continuer",
+    "🏋️ Aller à la salle"
 ];
 
 function chargerSuggestions() {
