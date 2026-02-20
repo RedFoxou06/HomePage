@@ -4,48 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/homepage.css" />
     <link rel="icon" type="image/png" href="images/logo_homepage.png" />
 </head>
 <body>
-<button id="theme-toggle">🌙 Mode sombre</button>
 
-<div class="main-box">
-    <h1>👋 Bonjour ! Voici tes suggestions du jour :</h1>
-    <div id="task-container" class="task-container"></div>
-    <button id="reload-btn">🔁 Changer les suggestions</button>
-</div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
 
-<div class="footer-links">
-    <a href="https://mail.google.com" target="_blank">
-        <img src="images/logo_gmail.png" alt="Gmail">
-        <span>Gmail</span>
-    </a>
-    <a href="https://dashboard.redfoxou.dev" target="_blank">
-        <img src="images/dashboard_128.png" alt="Dashboard">
-        <span>Dashboard</span>
-    </a>
-    <a href="https://www.youtube.com" target="_blank">
-        <img src="images/logo_youtube.png" alt="YouTube">
-        <span>YouTube</span>
-    </a>
-    <a href="https://www.github.com" target="_blank">
-        <img src="images/logo_github.png" alt="GitHub">
-        <span>GitHub</span>
-    </a>
-    <a href="https://senpai-stream.hair/" target="_blank">
-        <img src="images/logo_senpai-stream.jpg" alt="Senpai-Stream">
-        <span>Senpai-Stream</span>
-    </a>
-    <a id="open-spotify-btn" class="app-link">
-        <img src="images/logo_spotify.png" alt="Spotify">
-        <span>Spotify</span>
-    </a>
-    <a href="steam://open" class="app-link">
-        <img src="images/logo_steam.png" alt="Steam"><span>Steam</span>
-    </a>
+<div class="page">
+
+    <header>
+        <div class="logo">
+            <div class="logo-text">Red<span>Fox</span>ou</div>
+        </div>
+        <button id="theme-toggle">🌙 Mode sombre</button>
+    </header>
+
+    <div class="top-row">
+        <div class="greeting">
+            <h1><span class="hi">👋 Bonjour !</span><br>Voici tes suggestions du jour</h1>
+        </div>
+        <div class="clock-block">
+            <div class="clock" id="clock">--:--</div>
+            <div class="clock-date" id="clock-date">-- --- ----</div>
+        </div>
+    </div>
+
+    <div class="main-box">
+        <div class="section-label">Suggestions</div>
+        <div id="task-container" class="task-container"></div>
+        <button id="reload-btn">🔁 Changer les suggestions</button>
+    </div>
+
+    <div class="footer-section">
+        <div class="section-label">Accès rapide</div>
+        <div class="footer-links">
+
+            <a href="https://foxhub.redfoxou.dev" target="_blank" class="link-fox">
+                <img src="images/logo.jpg" alt="FoxHub" class="link-img-perso">
+                <span>FoxHub</span>
+            </a>
+
+            <a href="https://redfoxou.dev" target="_blank" class="link-fox">
+                <img src="images/logo.jpg" alt="Portfolio" class="link-img-perso">
+                <span>Portfolio</span>
+            </a>
+
+            <a href="https://dashboard.redfoxou.dev" target="_blank">
+                <img src="images/dashboard_128.png" alt="Dashboard">
+                <span>Dashboard</span>
+            </a>
+            <a href="https://mail.google.com" target="_blank">
+                <img src="images/logo_gmail.png" alt="Gmail">
+                <span>Gmail</span>
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="images/logo_youtube.png" alt="YouTube">
+                <span>YouTube</span>
+            </a>
+            <a href="https://www.github.com" target="_blank">
+                <img src="images/logo_github.png" alt="GitHub">
+                <span>GitHub</span>
+            </a>
+            <a href="https://senpai-stream.hair/" target="_blank">
+                <img src="images/logo_senpai-stream.jpg" alt="Senpai-Stream">
+                <span>Senpai-Stream</span>
+            </a>
+            <a id="open-spotify-btn" class="app-link">
+                <img src="images/logo_spotify.png" alt="Spotify">
+                <span>Spotify</span>
+            </a>
+            <a href="steam://open" class="app-link">
+                <img src="images/logo_steam.png" alt="Steam">
+                <span>Steam</span>
+            </a>
+        </div>
+    </div>
+
 </div>
 
 <script src="scripts/homepage.js"></script>
+<script src="scripts/clock.js"></script>
 </body>
 </html>
