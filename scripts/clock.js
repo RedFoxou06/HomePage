@@ -14,7 +14,6 @@ function updateClock() {
     const yr  = now.getFullYear();
 
     document.getElementById('clock-date').textContent = `${day} ${d} ${mon} ${yr}`;
-    document.getElementById('date-sub').textContent   = `// ${day.toLowerCase()}, ${d} ${mon.toLowerCase()} ${yr}`;
 }
 
 updateClock();

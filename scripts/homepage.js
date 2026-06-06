@@ -3,7 +3,6 @@ const suggestions = [
     "📚 Lire un livre",
     "💪 Faire un peu de sport ou s'étirer",
     "🎮 Jouer à Wolfenstein The New Order",
-    "✍️ Continuer mon application Valorant",
     "🧘‍♂️ Prendre 5 minutes pour respirer",
     "🤓 Faire une application to-do-list",
     "💻 Coder une application",
